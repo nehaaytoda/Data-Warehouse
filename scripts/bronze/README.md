@@ -41,7 +41,7 @@ Client connection must also allow it:
 ```sql
 mysql --local-infile=1 -u user -p
 ```
-### Summary
+## Summary
 Due to MySQL server security and permission restrictions, 
 bulk CSV loading is implemented using a Python-based solution instead of `LOAD DATA INFILE`. 
 This ensures compatibility across restricted environments while maintaining reliable and controlled data ingestion.
